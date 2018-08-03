@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": true,
+//    "timezone": "+09:00",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+//    "logging": false,
+//    "timezone": "+09:00",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "mysql",
+    "logging": false,
+//    "timezone": "+09:00",
+    "operatorsAliases": false
+  }
+}

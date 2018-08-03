@@ -1,0 +1,39 @@
+{
+  "name": "express-sequelize-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app.js",
+    "test": "nyc --reporter=html mocha --recursive"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.273.1",
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-validation": "^1.0.2",
+    "firebase-admin": "^5.13.1",
+    "http-errors": "~1.6.2",
+    "joi": "^13.1.2",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.0",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.1",
+    "multer-s3": "^2.7.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jest": "^23.4.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "supertest": "^3.1.0",
+    "swagger-ui-express": "^3.0.10"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "400": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "잘못된 요청입니다.",
+    "message": "bad_request"
+  },
+  "401": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "로그인에 실패하였습니다.",
+    "message": "login_fail"
+  },
+  "1401": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "이미 존재하는 전화번호 입니다.",
+    "message": "exist_id"
+  },
+  "1402": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "존재하지 않는 전화번호 입니다.",
+    "message": "not_signin"
+  },
+  "1403": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "비밀번호가 틀렸습니다.",
+    "message": "current_password_not_match"
+  },
+  "1404": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "비밀번호가 일치하지 않습니다",
+    "message": "new_password_not_match"
+  },
+  "1405": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "존재하지 않는 Post 입니다.",
+    "message": "do_not_exist_post"
+  },
+  "1406": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "취소할 수 없는 STATUS 입니다..",
+    "message": "do_not_cancel_status"
+  },
+  "2401": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "공공데이터 API 일시적 장애.",
+    "message": "service_temporarily_unavailable"
+  },
+  "2402": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "이미 배송중인 물품 입니다.",
+    "message": "already_progressing_post"
+  },
+  "3401" : {
+    "isSuccess": false,
+    "status": 400,
+    "description": "Match Progress 상태가 아닙니다",
+    "message": "not_progress_status_in_match"
+  },
+  "3402": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "해당 Match에 관련된 Receiver가 아니거나 배송원이 아직 완료하지 않았습니다.",
+    "message": "not_related_receiver"
+  },
+  "9401": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "파라미터가 잘못되었습니다.",
+    "message": "invalid_parameter"
+  },
+  "9402": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "권한이 없습니다.",
+    "message": "do_not_have_permission"
+  },
+  "10401": {
+    "isSuccess": false,
+    "status": 401,
+    "description": "만료된 인증 토큰 입니다.",
+    "message": "expired_token"
+  },
+  "10403": {
+    "isSuccess": false,
+    "status": 400,
+    "description": "잘못된 인증 방식입니다.",
+    "message": "invalid_authentication"
+  },
+  "500": {
+    "isSuccess": false,
+    "status": 500,
+    "description": "서버 오류",
+    "message": "internal_server_error"
+  },
+  "8400": {
+    "status": false,
+    "message": "400_Error"
+  },
+  "9500": {
+    "status": false,
+    "message": "500_error"
+  }
+}
