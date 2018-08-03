@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=development nodemon app.js",
+    "start": "nodemon app.js",
     "test": "nyc --reporter=html mocha --recursive"
   },
   "dependencies": {

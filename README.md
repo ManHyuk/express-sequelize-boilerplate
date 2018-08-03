@@ -47,6 +47,10 @@ $ npm install
 3. START
 
 ```
+# macOS
+$ export NODE_ENV=YOUR_ENV
+
+
 $ npm start
 ```
 
