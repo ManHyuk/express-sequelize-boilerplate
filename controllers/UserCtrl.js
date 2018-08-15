@@ -2,6 +2,7 @@
 
 const util = require('../utils/Crypto');
 const model = require('../models');
+const axios = require('axios');
 
 const authService = require('../services/AuthService');
 const userServcie = require('../services/UserService');
@@ -121,12 +122,11 @@ const UserController = () => {
     return res.r();
   };
 
-
   return {
     signup,
     signin,
     getProfile,
-    editProfile
+    editProfile,
   };
 };
 

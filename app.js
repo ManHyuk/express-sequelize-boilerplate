@@ -60,8 +60,8 @@ require('./ErrorHandler')(app);
 const PORT = 3000;
 
 app.listen(PORT, () => {
-  model.sequelize.sync();
-  console.info(`[MetroDash-ApiServer] Listening on Port ${PORT} / at ${env} Env`);
+  // model.sequelize.sync();
+  console.info(`[ApiServer] Listening on Port ${PORT} / at ${env} Env`);
 });
 
 module.exports = app;
